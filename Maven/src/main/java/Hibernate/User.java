@@ -39,6 +39,10 @@ public class User {
 	public void setAge(Long age) {
 		this.age = age;
 	}
+	@Override
+	public String toString(){
+		return getId()  + "-"+name+"-"+age+"-";
+	}
 
 	
 }
